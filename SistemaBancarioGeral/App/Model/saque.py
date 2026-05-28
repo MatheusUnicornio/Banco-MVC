@@ -1,0 +1,11 @@
+from App.Model.transacao import Transacao
+
+class Saque(Transacao):
+    def __init__(self, valor):
+        self.valor = valor
+
+    def registrar(self, conta):
+
+        sucesso = conta.sacar(self.valor)
+
+        return sucesso
