@@ -5,7 +5,7 @@ from repositories import repositorio
 
 class Servico:
 
-    def __init__(self, repositorio ):
+    def __init__(self, repositorio):
         self.cliente = Cliente(repositorio)
 
     def criar_conta(self, nome, cpf, saldo_inicial):

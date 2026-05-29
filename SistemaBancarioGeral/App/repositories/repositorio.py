@@ -1,7 +1,7 @@
 class Repositorio:
 
     def __init__(self):
-        self.contas - []
+        self.contas = []
 
     def salvar(self, conta):
         self.contas.append(conta)
