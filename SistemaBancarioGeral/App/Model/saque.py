@@ -1,4 +1,4 @@
-from App.Model.transacao import Transacao
+from app.model.transacao import Transacao
 
 class Saque(Transacao):
     def __init__(self, valor):

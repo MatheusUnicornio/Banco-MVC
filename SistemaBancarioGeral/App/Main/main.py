@@ -1,7 +1,7 @@
-from App.repositories.repositorio import Repositorio
-from App.services.servicos import Servico
-from App.Controller.controller import Controller
-from App.View.view import ObtemDados
+from app.repositories.repositorio import Repositorio
+from app.services.servicos import Servico
+from app.Controller.controller import Controller
+from app.View.view import ObtemDados
 
 
 repositorio = Repositorio()

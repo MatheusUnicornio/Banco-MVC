@@ -1,5 +1,5 @@
-from App.Model.cliente import Cliente
-from App.Model.conta import Conta
+from app.model.cliente import Cliente
+from app.model.conta import Conta
 
 
 class Servico:
