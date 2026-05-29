@@ -1,12 +1,11 @@
 from App.Model.cliente import Cliente
 from App.Model.conta import Conta
-from repositories import repositorio
 
 
 class Servico:
 
     def __init__(self, repositorio):
-        self.cliente = Cliente(repositorio)
+        self.repositorio = repositorio
 
     def criar_conta(self, nome, cpf, saldo_inicial):
 
